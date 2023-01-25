@@ -1,0 +1,211 @@
+.btn-group {
+    left: 25px;   
+}
+
+.left {
+    background-color:#2196F3;
+    padding:20px;
+    float:left;
+    width:20%; /* The width is 20%, by default */
+}
+
+.main {
+background-color:#f1f1f1;
+padding:20px;
+float:left;
+width:60%; /* The width is 60%, by default */
+}
+
+.right {
+background-color:#4CAF50;
+padding:20px;
+float:left;
+width:20%; /* The width is 20%, by default */
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:100px) {
+.left  , .main, .right {width:100%;}
+}
+.card1 {
+position: relative;
+display: flex;
+flex-direction: column;
+min-width: 0;
+word-wrap: break-word;
+background-color:rgb(230, 230, 230) ;
+background-clip: border-box;
+border: 1px solid rgba(34, 12, 240, 0.125);
+border-radius: 0.75rem;
+box-shadow: 0 0 20px rgba(0, 0, 0, 1.0);
+}
+
+.card2 {
+position: relative;
+display: flex;
+flex-direction: column;
+min-width: 0;
+word-wrap: break-word;
+background-color: rgb(237, 237, 237);
+background-clip: border-box;
+border: 1px solid rgba(34, 12, 240, 0.125);
+border-radius: 0.75rem;
+box-shadow: 0 0 20px rgba(0, 0, 0, 1.0);
+}
+
+.card3 {
+position: relative;
+display: flex;
+flex-direction: column;
+min-width: 0;
+word-wrap: break-word;
+background-color: rgb(218, 218, 218);
+background-clip: border-box;
+border: 1px solid rgba(34, 12, 240, 0.125);
+border-radius: 0.75rem;
+box-shadow: 0 0 20px rgba(0, 0, 0, 1.0);
+}
+
+.checkbox {
+            clip-path: circle(40% at 50% 50%);
+            width:40px;
+            height:40px;
+            position: realative;
+            left:50px;
+            
+          }
+
+.vehicle-icon{
+    width:5px;
+}
+.btn-group{
+    border-radius: 0.75rem;
+    
+
+}
+.plots{
+    left:15px;
+}
+
+select{
+    border-radius: 0.25rem;
+    width: 100px;
+    padding: 25 50px;
+    margin-right: 20px;
+    height: 35px;
+    background-color: rgb(189, 191, 198);
+
+}
+#submit-button {
+left :1000px;
+position: relative;
+top: -35px;
+}
+
+#refresh{
+    left: 0px;
+    position: relative;
+    top: -75px;
+}
+.graph-button{
+left :100px;
+position: relative;
+top: 20px;
+height: 200px;
+}
+
+
+
+.back-button{
+    left :0px;
+    position: relative;
+    top: -155px;
+    
+    
+}
+
+.result{
+    left:1100px;
+    position:relative;
+    top: -65px;
+}
+.reset-button {
+    left :0px;
+    position: relative;
+    top: -25px;
+}
+
+mark {
+    background-color: green;
+    color: black;
+  }
+
+div#loading {
+    width: 125px;
+    height: 125px;
+    display: none;
+    place-items: center; 
+    background: url(/static/load2.gif) no-repeat;
+    cursor: wait;
+    left:1100px; 
+    top: -80px;
+    position:relative;
+    }
+
+table, th, td {
+        border:1px solid black;
+      }
+.styled-table {
+        border-collapse: collapse;
+        font-size: 0.9em;
+        font-family: sans-serif;
+        min-width: 400px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 1.5);
+        margin-left: auto;
+        margin-right: auto;
+    }
+.styled-table thead tr {
+        background-color: #009879;
+        color: #ffffff;
+        text-align: left;
+    }
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+input[type='file'] {
+    color: transparent;
+  }
+
+.info {
+    background-color: #e7f3fe;
+    border-left: 6px solid #2196F3;
+    max-width: 1000px;
+    text-align: center;
+    margin: auto;
+    height: 50px;
+    font-size: 25px;
+    position: relative;
+    top: 25px
+    
+  }
+  
